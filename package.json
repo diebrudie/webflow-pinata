@@ -1,0 +1,31 @@
+{
+  "name": "webflow-pinata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "global-project-bbet.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "serve",
+    "build": "esbuild global-project-bbet.ts --bundle --minify --sourcemap --outfile=dist/global-project-bbet.min.js",
+    "build-by-file": "node builder.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diebrudie/webflow-pinata.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diebrudie/webflow-pinata/issues"
+  },
+  "homepage": "https://github.com/diebrudie/webflow-pinata#readme",
+  "devDependencies": {
+    "@types/jquery": "^3.5.22",
+    "esbuild": "^0.19.4",
+    "serve": "^14.2.1"
+  },
+  "dependencies": {
+    "gsap": "^3.12.2",
+    "jquery": "^3.7.1"
+  }
+}
