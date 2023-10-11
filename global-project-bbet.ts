@@ -1,7 +1,6 @@
 import $ from 'jquery';
 import { gsap } from "gsap";
 
-alert('connected');
 // mobile hamburger menu animation
 $(".c-nav__btn-hamb-lottie").on("click", function () {
     $(".c-nav__menu").toggleClass("is--open");
