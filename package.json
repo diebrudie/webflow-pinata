@@ -21,11 +21,13 @@
   "homepage": "https://github.com/diebrudie/webflow-pinata#readme",
   "devDependencies": {
     "@types/jquery": "^3.5.22",
+    "@types/nouislider": "^15.0.0",
     "esbuild": "^0.19.4",
     "serve": "^14.2.1"
   },
   "dependencies": {
     "gsap": "^3.12.2",
-    "jquery": "^3.7.1"
+    "jquery": "^3.7.1",
+    "nouislider": "^15.7.1"
   }
 }

@@ -52,12 +52,12 @@ $(".c-nav__btn-hamb-lottie").on("click", function () {
       // .cursor class needs to have a mouse click interaction applied
       $(
         "a, .nav__menu-dp-link, .w-checkbox-input, .w-form-label, .w-inline-block"
-      ).mouseenter(function () {
+      ).on("mouseenter", function() {
         $(".cursor").click();
       });
       $(
         "a, .nav__menu-dp-link, .w-checkbox-input, .w-form-label, .w-inline-block"
-      ).mouseleave(function () {
+      ).on("mouseleave", function() {
         $(".cursor").click();
       });
   
